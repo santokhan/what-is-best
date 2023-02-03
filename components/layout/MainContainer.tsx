@@ -8,7 +8,7 @@ interface Props {
 
 function MainContainer({ children, className = "" }: Props) {
   return (
-    <div className={"max-w-screen-xl mx-auto px-4 " + className}>
+    <div className={"max-w-screen-xl mx-auto px-4 relative " + className}>
       {children}
     </div>
   );

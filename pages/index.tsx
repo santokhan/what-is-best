@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       </div>
 
       <MainContainer>
-        <div className="flex gap-8">
+        <div className="lg:flex gap-8">
           <SideBar></SideBar>
           <div className="w-full py-8">
             <M.Card>
